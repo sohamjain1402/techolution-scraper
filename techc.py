@@ -5,7 +5,7 @@ from PyQt4.QtGui import QApplication  # pyQT4 is an asynchronous library
 from PyQt4.QtCore import QUrl  # this is how we can read the url
 from PyQt4.QtWebKit import QWebPage
 import csv
-
+import math
 
 class Client(QWebPage):
 
